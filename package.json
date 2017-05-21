@@ -1,0 +1,21 @@
+{
+    "name": "basic_sass_template",
+    "version": "1.0.0",
+    
+    "devDependencies": {
+        "node-sass": "^4.5.3",
+        "webpack": "^2.5.1",
+        
+        "clean-webpack-plugin": "^0.1.16",
+        "extract-text-webpack-plugin": "^2.1.0",
+        
+        "style-loader": "^0.17.0",
+        "css-loader": "^0.28.1",
+        "sass-loader": "^6.0.5"
+    },
+    
+    "scripts": {
+        "build": "webpack",
+		"build-watch": "webpack --watch"
+    }
+}
